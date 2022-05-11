@@ -1,4 +1,4 @@
-package com.bawei.widget;
+package com.bawei.widget2;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

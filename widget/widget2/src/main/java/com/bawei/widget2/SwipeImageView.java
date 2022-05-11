@@ -1,19 +1,10 @@
-package com.bawei.widget;
+package com.bawei.widget2;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
-import android.content.res.TypedArray;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
-import android.graphics.Color;
 import android.graphics.Matrix;
-import android.graphics.Paint;
-import android.graphics.PorterDuff;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.view.View;
-import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.AppCompatImageView;
@@ -65,7 +56,7 @@ public class SwipeImageView extends AppCompatImageView {
         Matrix matrix = new Matrix();
         matrix.postTranslate(ix, iy);
 //切记修改控件缩放模式为 MATRIX
-        setScaleType(ImageView.ScaleType.MATRIX);
+        setScaleType(ScaleType.MATRIX);
         setImageMatrix(matrix);
 
 
